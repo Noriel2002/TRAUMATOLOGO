@@ -1,0 +1,10 @@
+| Paciente         | Fecha       | Hora   | Descripción           |
+|------------------|-------------|--------|-----------------------|
+| Juan Perez       | 2024-02-05  | 10:30  | Dolor en la pierna    |
+| Maria Rodriguez  | 2024-02-06  | 15:15  | Fractura de brazo     |
+| Pedro Gomez      | 2024-02-07  | 08:45  | Esguince de tobillo   |
+| noriel           | 2024-02-12  | 10:15  | xd                    |
+| noriel           | 2024-02-12  | 16:00  | Luxación de codo      |
+| leo              | 2024-03-20  | 9:00   | Rotura de pierna      |
+| jeferson         | 2024-12-10  | 17:30  | brazo fracturado      |
+| soto             | 2024-03-14  | 07:00  | torcedura de cadera     |

@@ -1,0 +1,46 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TRAUMATOLOGO-CHAVEZ</title>
+</head>
+<body>
+    <h1>FICHA DE REGISTRO</h1>
+
+    <h2>HORARIOS DE ATENCION</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>TURNO MAÑANA: 6:00 - 13:00</th>
+            </tr>
+            <tr>
+                <th>TURNO TARDE: 15:00 - 19:00</th>
+            </tr>
+        </thead>
+    </table>
+
+    <h2>Ingresar Nueva Cita</h2>
+    <form action="/nueva-cita" method="post">
+        <label for="paciente">Paciente:</label>
+        <input type="text" id="paciente" name="paciente" required>
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="text" id="hora" name="hora" placeholder="Formato: 10:30" required>
+
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion" required></textarea>
+
+        <button type="submit">Guardar Cita</button>
+    </form>
+
+    <h2>Mostrar lista de Citas</h2>
+    <a href="/mostrar-citas" target="_blank"><button>Lista de citas</button></a>
+</body>
+</html>
